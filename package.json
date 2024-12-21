@@ -1,0 +1,35 @@
+{
+  "name": "markdown2ml",
+  "version": "1.0.0",
+  "main": "dist/mark2ml.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "bin": {
+    "mark2ml": "dist/mark2ml.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "A cli to turn markdown to html",
+  "dependencies": {
+    "@textlint/markdown-to-ast": "^14.4.0",
+    "@types/js-beautify": "^1.14.3",
+    "@types/node": "^22.10.2",
+    "commander": "^12.1.0",
+    "html-format": "^1.1.7",
+    "js-beautify": "^1.15.1",
+    "jsdom": "^25.0.1",
+    "markdown-ast": "^0.3.0",
+    "typescript": "^5.7.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/unacalada/mark2ml.git"
+  },
+  "homepage": "https://github.com/unacalada/mark2ml.git",
+  "devDependencies": {
+    "@types/jsdom": "^21.1.7"
+
+  }
+}
